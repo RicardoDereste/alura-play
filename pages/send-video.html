@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>AluraPlay</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <nav class="header">
+            <a class="logo" href="../index.html"></a>
+
+            <div class="header-icons">
+                <a href="./send-video.html" class="header-videos"></a>
+                <a href="#" class="header-apps"></a>
+                <a href="#" class="header-notifications"></a>
+                <a href="#" class="header-avatar"></a>
+            </div>
+        </nav>
+
+    </header>
+
+    <main class="container">
+
+        <form class="container-form" data-form>
+            <h2 class="form-title">Send a Video!</h3>
+                <div class="form-field">
+                    <label class="field-label" for="url">Link embed</label>
+                    <input name="url" class="field-written" required
+                        placeholder="For example: https://www.youtube.com/embed/FAY1K2aUg5g" id='url' data-url/>
+                </div>
+
+
+                <div class="form-field">
+                    <label class="field-label" for="title">Video Title</label>
+                    <input name="title" class="field-written" required placeholder="In this field, give the name of the video"
+                        id='title' data-title/>
+                </div>
+
+                <div class="form-field">
+                    <label class="field-label" for="image">Profile Image</label>
+                    <input name="image" class="field-written" required placeholder="Enter image url"
+                        id='image' data-image/>
+                </div>
+
+                <input value="Submit" class="form-button" type="submit" />
+        </form>
+
+    </main>
+
+    <script src="../js/createVideo.js" type="module"></script>
+
+</body>
+
+</html>

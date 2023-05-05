@@ -1,0 +1,9 @@
+The code is working perfectly,
+however you must start the json-server on your computer,
+so you can see all the resources of this project working!
+
+1 - Open the project in VS Code
+2 - Open an integrated Terminal in the project
+3 - Type the follow line in the Terminal and press Enter:
+
+npx json-server --watch db.json
